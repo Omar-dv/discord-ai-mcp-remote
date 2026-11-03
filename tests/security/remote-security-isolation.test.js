@@ -309,3 +309,4 @@ describe('Remote MCP Security Enforcement, Isolation, & Destructive Confirmation
     expect(confirmedPayload.ok).toBe(true);
   });
 });
+

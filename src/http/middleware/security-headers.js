@@ -18,3 +18,4 @@ export function applySecurityHeaders(reply, requestId, isHttps = false) {
     reply.header('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
   }
 }
+

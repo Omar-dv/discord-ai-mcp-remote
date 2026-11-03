@@ -33,3 +33,4 @@ export function registerOAuthDiscoveryRoutes(fastify, { oauthProvider }) {
     reply.code(200).send(metadata);
   });
 }
+

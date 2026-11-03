@@ -155,3 +155,4 @@ export class OAuthResourceProvider {
     throw new OAuthError(OAuthErrorCode.InvalidToken, 'Unrecognized or invalid OAuth access token.');
   }
 }
+

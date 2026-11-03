@@ -488,3 +488,4 @@ export function registerAllResources(mcpServer, dependencies) {
 
   return registry;
 }
+

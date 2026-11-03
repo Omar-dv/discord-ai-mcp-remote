@@ -33,3 +33,4 @@ services:
 volumes:
   discord_mcp_data:
     driver: local
+

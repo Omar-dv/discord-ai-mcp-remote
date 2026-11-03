@@ -10,3 +10,4 @@ ingress:
       disableChunkedEncoding: false
       httpHostHeader: mcp.example.com
   - service: http_status:404
+

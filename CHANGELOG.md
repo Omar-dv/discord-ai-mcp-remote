@@ -25,3 +25,4 @@ All notable changes to **Discord AI MCP Remote** are documented in this file.
   - Production `Dockerfile`, `docker-compose.yml`, Nginx config, Caddyfile, and Cloudflare Tunnel guide.
 
 Copyright (c) 2026 Omar ElSabbagh. Licensed under the MIT License.
+

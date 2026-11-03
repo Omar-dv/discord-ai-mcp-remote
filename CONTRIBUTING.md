@@ -29,3 +29,4 @@
 
 By contributing to Discord AI MCP Remote, you agree that your contributions will be licensed under the MIT License.
 Copyright (c) 2026 Omar ElSabbagh. Licensed under the MIT License.
+

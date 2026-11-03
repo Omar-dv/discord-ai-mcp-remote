@@ -30,3 +30,4 @@ export class ApplicationLifecycleManager {
     process.once('SIGTERM', () => handleSignal('SIGTERM'));
   }
 }
+

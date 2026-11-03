@@ -27,3 +27,4 @@ export function registerHealthRoutes(fastify, { databaseManager, discordClientMa
     reply.code(dbUp ? 200 : 503).send(payload);
   });
 }
+

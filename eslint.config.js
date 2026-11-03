@@ -35,3 +35,4 @@ export default [
     ignores: ['node_modules/**', 'data/**', 'coverage/**']
   }
 ];
+

@@ -49,3 +49,4 @@ export class CorsManager {
     return { handledPreflight: false, rejected: false };
   }
 }
+

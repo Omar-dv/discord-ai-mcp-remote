@@ -155,3 +155,4 @@ export class DatabaseManager {
     this.db = null;
   }
 }
+

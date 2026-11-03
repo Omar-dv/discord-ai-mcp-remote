@@ -152,3 +152,4 @@ export class AuthorizationManager {
     return guilds.filter((g) => this.isGuildAllowedForIdentity(identity, g.id));
   }
 }
+

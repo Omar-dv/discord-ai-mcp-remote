@@ -83,3 +83,4 @@ export class SessionRepository {
     return this.listActiveByIdentityStmt.all(String(identityId), new Date().toISOString());
   }
 }
+

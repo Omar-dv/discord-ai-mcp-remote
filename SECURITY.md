@@ -31,3 +31,4 @@
 Do not open public issues containing live Discord Bot Tokens, API keys, or exploit payloads against live servers. Report security issues responsibly through the EnzoCord community or repository security advisories.
 
 Copyright (c) 2026 Omar ElSabbagh. Licensed under the MIT License.
+
