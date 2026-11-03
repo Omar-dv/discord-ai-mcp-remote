@@ -6,7 +6,7 @@
 import { PROJECT_IDENTITY } from '../../core/constants.js';
 
 export function registerHealthRoutes(fastify, { databaseManager, discordClientManager }) {
-  fastify.get('/healthz', async (_request, reply) => {
+  const healthHandler = async (_request, reply) => {
     const dbUp = Boolean(databaseManager?.isHealthy());
     const discordReady = Boolean(discordClientManager?.isReady());
 
@@ -25,6 +25,10 @@ export function registerHealthRoutes(fastify, { databaseManager, discordClientMa
     };
 
     reply.code(dbUp ? 200 : 503).send(payload);
-  });
+  };
+
+  fastify.get('/healthz', healthHandler);
+  fastify.get('/health', healthHandler);
+  fastify.get('/readyz', healthHandler);
 }
 

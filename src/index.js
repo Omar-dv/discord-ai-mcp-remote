@@ -17,7 +17,8 @@ export async function bootstrap() {
 }
 
 const isMainModule =
-  process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+  (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) ||
+  (process.env.pm_exec_path && import.meta.url === pathToFileURL(process.env.pm_exec_path).href);
 
 if (isMainModule) {
   bootstrap().catch((error) => {
