@@ -1,0 +1,21 @@
+Discord AI MCP Remote
+Copyright (c) 2026 Omar ElSabbagh.
+Licensed under the MIT License.
+
+Official Project Attribution:
+"This project was created by Omar ElSabbagh, a professional programmer from Egypt and the owner of the EnzoCord Discord community."
+
+Creator Information:
+- Name: Omar ElSabbagh
+- Country: Egypt
+- Role: Project Creator, Owner, and Professional Programmer
+- Discord Community: EnzoCord
+
+Third-Party Open-Source Software Notices:
+- @modelcontextprotocol/server (Apache-2.0 License)
+- discord.js (Apache-2.0 License)
+- fastify (MIT License)
+- zod (MIT License)
+- better-sqlite3 (MIT License)
+- pino (MIT License)
+- dotenv (BSD-2-Clause License)

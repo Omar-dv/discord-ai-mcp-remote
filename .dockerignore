@@ -1,0 +1,17 @@
+node_modules
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+config/config.json
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal
+data/backups
+coverage
+tests
+*.log
+README.md
+CONTRIBUTING.md
+CHANGELOG.md

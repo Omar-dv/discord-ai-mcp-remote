@@ -1,0 +1,12 @@
+tunnel: YOUR_CLOUDFLARE_TUNNEL_UUID
+credentials-file: /etc/cloudflared/credentials.json
+
+ingress:
+  - hostname: mcp.example.com
+    service: http://127.0.0.1:3000
+    originRequest:
+      connectTimeout: 30s
+      noTLSVerify: false
+      disableChunkedEncoding: false
+      httpHostHeader: mcp.example.com
+  - service: http_status:404

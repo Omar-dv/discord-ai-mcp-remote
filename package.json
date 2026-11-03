@@ -1,0 +1,62 @@
+{
+  "name": "discord-ai-mcp-remote",
+  "version": "1.0.0",
+  "description": "Discord AI MCP Remote — Complete self-hosted Remote Streamable HTTP Model Context Protocol (MCP) platform for Discord management. Created by Omar ElSabbagh, a professional programmer from Egypt and the owner of the EnzoCord Discord community.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "discord-ai-mcp-remote": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": {
+    "name": "Omar ElSabbagh",
+    "country": "Egypt",
+    "role": "Project Creator, Owner, and Professional Programmer",
+    "community": "EnzoCord"
+  },
+  "copyright": "Copyright (c) 2026 Omar ElSabbagh. Licensed under the MIT License.",
+  "attribution": "This project was created by Omar ElSabbagh, a professional programmer from Egypt and the owner of the EnzoCord Discord community.",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "mcp",
+    "remote-mcp",
+    "streamable-http",
+    "model-context-protocol",
+    "discord-js",
+    "fastify",
+    "ai",
+    "bot",
+    "moderation",
+    "server-management",
+    "enzocord",
+    "omar-elsabbagh"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "node scripts/setup.js",
+    "auth:generate-key": "node scripts/generate-api-key.js",
+    "diagnostics": "node scripts/diagnostics.js",
+    "db:backup": "node scripts/database-backup.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.4.0",
+    "better-sqlite3": "^13.0.3",
+    "discord.js": "^14.28.0",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.12.8",
+    "pino": "^10.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.0",
+    "eslint": "^10.14.0",
+    "globals": "^16.0.0",
+    "vitest": "^5.1.0"
+  }
+}
