@@ -108,7 +108,7 @@ export function createHttpServer(dependencies) {
   });
 
   registerHealthRoutes(fastify, { databaseManager, discordClientManager });
-  registerOAuthDiscoveryRoutes(fastify, { oauthProvider });
+  registerOAuthDiscoveryRoutes(fastify, { oauthProvider, authenticationManager, config });
   registerMcpRoutes(fastify, {
     config,
     hostValidator,
